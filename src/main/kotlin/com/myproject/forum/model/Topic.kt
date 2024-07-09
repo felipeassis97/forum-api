@@ -2,7 +2,7 @@ package com.myproject.forum.model
 import java.time.LocalDateTime
 
 data class Topic(
-    val id: Long? = null,
+    var id: Long? = null,
     val title: String,
     val message: String,
     val course: Course,
